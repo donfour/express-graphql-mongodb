@@ -1,7 +1,7 @@
 // module dependencies
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
-const schema = require('./schema/schema');
+const schema = require('./schema');
 const MongoClient = require('mongodb').MongoClient;
 const cors = require('cors');
 
